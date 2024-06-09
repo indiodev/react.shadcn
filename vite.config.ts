@@ -7,7 +7,8 @@ export default defineConfig({
 	plugins: [react()],
 	resolve: {
 		alias: {
-			Components: resolve(__dirname, './app/components'),
+			'@components': resolve(__dirname, './app/components'),
+			'@libs': resolve(__dirname, './app/libs'),
 		},
 	},
 });

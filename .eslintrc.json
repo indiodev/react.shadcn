@@ -60,7 +60,10 @@
 	"settings": {
 		"import/resolver": {
 			"alias": {
-				"map": [["Components", "./app/components"]],
+				"map": [
+					["@components", "./app/components"],
+					["@libs", "./app/libs"]
+				],
 				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
 			}
 		}
