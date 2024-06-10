@@ -9,6 +9,9 @@ export default defineConfig({
 		alias: {
 			'@components': resolve(__dirname, './app/components'),
 			'@libs': resolve(__dirname, './app/libs'),
+			'@routes': resolve(__dirname, './app/routes'),
+			'@layouts': resolve(__dirname, './app/routes'),
+			'@pages': resolve(__dirname, './app/pages'),
 		},
 	},
 });

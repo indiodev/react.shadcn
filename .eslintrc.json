@@ -62,7 +62,10 @@
 			"alias": {
 				"map": [
 					["@components", "./app/components"],
-					["@libs", "./app/libs"]
+					["@libs", "./app/libs"],
+					["@routes", "./app/routes"],
+					["@layouts", "./app/layouts"],
+					["@pages", "./app/pages"]
 				],
 				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
 			}
