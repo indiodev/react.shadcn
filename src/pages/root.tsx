@@ -1,5 +1,6 @@
-// import { Button } from '@components/ui/button';
-// import { Input } from '@components/ui/input';
+import { Button } from '@components/ui/button';
+import { Input } from '@components/ui/input';
+import { CheckCircle2Icon } from 'lucide-react';
 import React from 'react';
 
 export function Root(): React.ReactElement {
@@ -9,7 +10,7 @@ export function Root(): React.ReactElement {
 				className="p-8 flex gap-2 max-w-2xl w-full"
 				onSubmit={(e) => e.preventDefault()}
 			>
-				{/* <Input
+				<Input
 					placeholder="Full Name"
 					className="flex-1rounded-md border border-green-600 placeholder:text-green-400"
 				/>
@@ -18,7 +19,7 @@ export function Root(): React.ReactElement {
 					className="bg-green-600"
 				>
 					<CheckCircle2Icon />
-				</Button> */}
+				</Button>
 			</form>
 		</div>
 	);

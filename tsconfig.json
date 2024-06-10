@@ -2,11 +2,11 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@components/*": ["./app/components/*"],
-			"@libs/*": ["./app/libs/*"],
-			"@routes/*": ["./app/routes/*"],
-			"@layouts/*": ["./app/layouts/*"],
-			"@pages/*": ["./app/pages/*"]
+			"@components/*": ["./src/components/*"],
+			"@libs/*": ["./src/libs/*"],
+			"@routes/*": ["./src/routes/*"],
+			"@layouts/*": ["./src/layouts/*"],
+			"@pages/*": ["./src/pages/*"]
 		},
 
 		"target": "ES2020",
@@ -29,6 +29,6 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["./app/**/*"],
+	"include": ["./src/**/*"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
